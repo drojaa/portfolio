@@ -1,0 +1,25 @@
+
+
+
+#home-container {
+    display: flex;
+    height: 100vh;
+    margin: 7%;
+    margin-left: 12%;
+    margin-right: 12%; 
+  
+}
+
+/* Name Component */
+#home-container > div:first-child {
+    width: 50%;       /* Left half of the screen */
+    padding: 2rem;    /* optional spacing */
+    box-sizing: border-box;
+}
+
+/* AboutMe Component */
+#home-container > div:last-child {
+    width: 50%;       /* Right half of the screen */
+    padding: 2rem;    /* spacing */
+    box-sizing: border-box;
+}

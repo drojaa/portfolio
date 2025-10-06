@@ -1,0 +1,16 @@
+/* About Me CSS File */
+
+#about-container {
+   color: #E6D9D2;
+  
+
+}
+
+.about {
+    font-size: medium;
+    font-weight: lighter;
+}
+
+span{
+    color: pink;
+}
