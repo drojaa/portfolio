@@ -5,9 +5,14 @@
     display: flex;
     font-size: x-large;
     margin-top: 7%;
-    gap: 10px;
+    gap: 20px;
 }
 
 .icon{
+    color: #e1c9bc;;
+}
+
+.icon:hover{
     color: white;
+
 }

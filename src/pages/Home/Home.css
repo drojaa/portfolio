@@ -23,3 +23,19 @@
     padding: 2rem;    /* spacing */
     box-sizing: border-box;
 }
+
+.pointer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 1rem;
+    aspect-ratio: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate3d(var(--mouseX, 0), var(--mouseY, 0), 0);
+    
+}
+
