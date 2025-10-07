@@ -25,3 +25,7 @@ li:hover{
     transform: scale(1.3);
     color: #FF6F61;
 }
+
+a:hover {
+    color: #FF6F61;
+}
