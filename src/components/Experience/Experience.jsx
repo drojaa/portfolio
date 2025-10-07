@@ -11,7 +11,7 @@ export function Experience(){
         </div>
 
 
-            <div class="main">
+            <div id="experience" class="main">
               <p id="date"><span> Jun 2024 - Sept 2024</span></p>
 
                 <p> <span>Kyruus Health</span> <br></br> <span> Software Engineer Intern </span> <br></br>

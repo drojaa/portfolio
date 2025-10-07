@@ -14,7 +14,7 @@
 
   background: linear-gradient(120deg, #9B786F, #000000);
 
-
+  scroll-behavior: smooth;
 }
 
 body, * {

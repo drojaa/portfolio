@@ -5,11 +5,11 @@ export function Nav(){
     return (
         <>
         <ul>
-            <li>ABOUT</li>
+            <li> <a href="#about-container"> About</a> </li>
             <br/> <br/>
-            <li>Experience</li>
+            <li> <a href="#experience"> Experience </a> </li>
             <br/> <br/>
-            <li>Projects</li>
+            <li> <a href="#projects"> Projects </a> </li>
         </ul>
         </>
     )
