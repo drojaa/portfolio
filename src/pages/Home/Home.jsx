@@ -10,6 +10,7 @@ import { useEffect, useState } from "react"
 export function Home() {
 const [pos, setPos] = useState({ x:0, y:0}) //storing the mouse coordinates
 
+
 useEffect(() => {
     function handleMove(e){
         setPos({x: e.clientX, y: e.clientY})
@@ -18,11 +19,15 @@ useEffect(() => {
         document.documentElement.style.setProperty("--mouseY", e.clientY + "px");
     }
     window.addEventListener("mousemove", handleMove)
-}, [])
-    
+  }, []);
+  
     return (
         <>
+        
         <div id="home-container">
+
+    
+
         <div>
         
          <Name/>
@@ -30,7 +35,7 @@ useEffect(() => {
          <Links/>
         </div>
 
-        <div>
+        <div id="non-sticky">
         <Aboutme/>
         <Experience/>
         </div>
@@ -38,6 +43,7 @@ useEffect(() => {
         
         </div>
         <div class="pointer" aria-hidden="true"></div>
+
         </>
     )
 }

@@ -12,22 +12,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: linear-gradient(120deg, #9B786F, #fffdfc);
-  background-size: 200% 200%;
-  animation: gradientShift 12s ease infinite alternate;
+  background: linear-gradient(120deg, #9B786F, #000000);
 
-}
 
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
 }
 
 body, * {
   cursor: none !important; 
 }
-
-
 
 a {
   font-weight: 500;
