@@ -1,11 +1,15 @@
 
 import "./Experience.css"
-
+import { FiDownload } from "react-icons/fi";
 export function Experience(){
     return (
         <>
         <div class="exp-container">
-          
+        <div id="downloads">
+            <p id="download">Download My Full Resume Here</p>
+           <a href="src/public/Resume.pdf" target="_blank" > <FiDownload id="d-icon" />  </a>  
+        </div>
+
 
             <div class="main">
               <p id="date"><span> Jun 2024 - Sept 2024</span></p>
@@ -51,9 +55,6 @@ export function Experience(){
                 </p>
             </div>
 
-
-
-            
 
         </div>
         </>

@@ -10,7 +10,7 @@
 }
 
 .main:hover{
-    transform: translateY(-5px); /* lifts slightly */
+    transform: translateY(-10px); /* lifts slightly */
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     border-color: rgba(0,0,0,0.2);
 }
@@ -58,3 +58,45 @@ span {
     flex-wrap: wrap;
 }
 
+#download {
+    margin: 0;
+    font-weight: 400;
+    transition: transform 0.3s ease, color 0.3s ease; 
+    transform-origin: left center;
+}
+
+
+#download:hover {
+    
+    color: #FF6F61;
+}
+
+#downloads {
+    transition: transform 0.3s ease, color 0.3s ease; 
+    transform-origin: left center;
+    display: flex;
+}
+
+#downloads:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+#d-icon {
+   margin-left: 1%;
+   
+}
+
+#d-icon:hover {
+    color: #FF6F61;
+    
+ }
+
+ a {
+    margin: 0;
+    margin-left: 1%;
+    color: white
+ }
