@@ -7,6 +7,7 @@ import { Links } from "../../components/Links/links"
 import { Experience } from "../../components/Experience/Experience"
 
 import { useEffect, useState } from "react"
+import { Portfolio } from "../../components/Portfolio/Portfolio"
 export function Home() {
 const [pos, setPos] = useState({ x:0, y:0}) //storing the mouse coordinates
 
@@ -38,6 +39,8 @@ useEffect(() => {
         <div id="non-sticky">
         <Aboutme/>
         <Experience/>
+        <br></br>
+        <Portfolio/>
         </div>
 
         
