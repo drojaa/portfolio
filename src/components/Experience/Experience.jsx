@@ -5,11 +5,17 @@ export function Experience(){
     return (
         <>
         <div class="exp-container">
+          
+          <a href="src/public/Resume.pdf" target="_blank">  
         <div id="downloads">
-            <p id="download">Download My Full Resume Here</p>
-           <a href="src/public/Resume.pdf" target="_blank" > <FiDownload id="d-icon" />  </a>  
-        </div>
+            <p  id="download">Download My Full Resume Here 
+              
+             <FiDownload id="exp-icon"/>    
 
+            </p>
+          
+        </div>
+        </a>
 
             <div id="experience" class="main">
               <p id="date"><span> Jun 2024 - Sept 2024</span></p>
