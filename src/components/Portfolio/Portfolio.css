@@ -34,5 +34,19 @@ a {
 
 #view:hover {
     transform: scale(1.1);
-    color: #FF6F61;
+    color: #d4af37; /* base gold color */
+    background: linear-gradient(90deg, #f9d976, #d4af37, #b8860b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+#golden{
+    color: #d4af37; /* base gold color */
+  background: linear-gradient(90deg, #f9d976, #d4af37, #b8860b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }

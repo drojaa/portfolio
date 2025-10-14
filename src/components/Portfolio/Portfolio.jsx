@@ -19,7 +19,7 @@ export function Portfolio() {
               </p>
              
                 <p id="port-desc"> <span>Bookify <PiCursorClickDuotone /> </span> <br></br>
-                A web app that generates personalized Spotify playlists from book or movie selections. Users enter a title and author, and OpenAI’s ChatGPT creates a playlist matching the work’s themes and vibe. Playlists are saved to the user’s Spotify account. Users can rate and comment, fostering community engagement. Built with Flask, React, Tailwind CSS, Spotify API, and OpenAI integration.
+                A web app that generates personalized Spotify playlists from book or movie selections. Users enter a title and author, and OpenAI’s ChatGPT creates a playlist matching the work’s themes and vibe. Playlists are saved to the user’s Spotify account. Users can rate and comment, fostering community engagement. <span id="golden">Built with Flask, React, Tailwind CSS, Spotify API, and OpenAI integration.</span>
                 </p>
           </a>
               
@@ -33,7 +33,7 @@ export function Portfolio() {
               </p>
              
                 <p id="port-desc"> <span>Voter Analytics  <PiCursorClickDuotone /> </span> <br></br>
-                An interactive dashboard for Newton, MA voter data. Users can browse, filter, and paginate through voter records, and analyze data via bar and pie charts to gain insights into demographics and election trends. Built with Django, React (JS), and CSS.
+                An interactive dashboard for Newton, MA voter data. Users can browse, filter, and paginate through voter records, and analyze data via bar and pie charts to gain insights into demographics and election trends. <span id="golden"> Built with Django, React (JS), and CSS. </span>
                 </p>
           </a>   
             </div>
@@ -47,7 +47,7 @@ export function Portfolio() {
               </p>
              
                 <p id="port-desc"> <span>Radiology Report<PiCursorClickDuotone /> </span> <br></br>
-                An interactive dashboard for Newton, MA voter data. Users can browse, filter, and paginate through voter records, and analyze data via bar and pie charts to gain insights into demographics and election trends. Built with Django, React (JS), and CSS.
+                An interactive dashboard for Newton, MA voter data. Users can browse, filter, and paginate through voter records, and analyze data via bar and pie charts to gain insights into demographics and election trends. <span id="golden">Built with Django, React (JS), and CSS. </span>
                 </p>
           </a>   
             </div>
