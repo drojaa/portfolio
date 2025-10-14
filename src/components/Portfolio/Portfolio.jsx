@@ -10,7 +10,7 @@ export function Portfolio() {
 
         <>
         <div id="portfolio">
-        <p id="view">View More Projects Here <PiCursorClickDuotone/> </p>
+        <p id="view">View More Projects Here<PiCursorClickDuotone/> </p>
         <div id="portfolio" class="main">
           <a href="https://cs412-9c2s.onrender.com/voter_analytics/" > 
 

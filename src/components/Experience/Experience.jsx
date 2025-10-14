@@ -1,6 +1,6 @@
 
 import "./Experience.css"
-import { FiDownload } from "react-icons/fi";
+import { PiCursorClickDuotone } from "react-icons/pi";
 export function Experience(){
     return (
         <>
@@ -8,11 +8,7 @@ export function Experience(){
           
           <a href="src/public/Resume.pdf" target="_blank">  
         <div id="downloads">
-            <p  id="download">Download My Full Resume Here 
-              
-             <FiDownload id="exp-icon"/>    
-
-            </p>
+            <p id="download">Download My Full Resume Here <PiCursorClickDuotone/></p>
           
         </div>
         </a>
