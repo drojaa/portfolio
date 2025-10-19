@@ -34,6 +34,7 @@ useEffect(() => {
          <Name/>
          <Nav/>
          <Links/>
+         
         </div>
 
         <div id="non-sticky">

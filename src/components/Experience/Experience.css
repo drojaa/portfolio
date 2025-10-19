@@ -21,9 +21,6 @@ p {
     font-weight: lighter;
 }
 
-span {
-    font-weight: bold;
-}
 
 /* Name Component */
 .main > p:first-child {
@@ -60,7 +57,7 @@ span {
 
 #download {
     margin: 0;
-    font-weight: 400;
+    font-weight: bold;
     transition: transform 0.3s ease, color 0.3s ease; 
     transform-origin: left center;
     display: flex;;
@@ -69,11 +66,10 @@ span {
 
 #download:hover {
    
-    color: #d4af37; /* base gold color */
-    background: linear-gradient(90deg, #f9d976, #d4af37, #b8860b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
+ 
+   
+ 
+    font-weight: bolder;
     text-shadow: 0 1px 1px rgba(0,0,0,0.2);
     transform: scale(1.1);
 }
