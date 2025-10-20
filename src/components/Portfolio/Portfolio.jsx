@@ -2,7 +2,7 @@
 import "./Portfolio.css"
 import { PiCursorClickDuotone } from "react-icons/pi";
 import { Link } from "react-router-dom";
-import one from "/one.png"
+
 
 
 export function Portfolio() {
@@ -39,7 +39,7 @@ export function Portfolio() {
           <a target="_blank" href="https://web-production-bbed.up.railway.app/voter_analytics/" > 
 
           <p id="image">
-          <img src="src/public/one.png"></img>
+          <img src="/images/one.png"/>
               </p>
              
                 <p id="port-desc"> <span style={{
