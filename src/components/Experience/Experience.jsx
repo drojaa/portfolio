@@ -39,7 +39,7 @@ export function Experience(){
               <p id="date"><span> Sep 2023 - Nov 2023</span></p>
 
                 <p> <span style={{ fontWeight: "bolder" }}>HubSpot</span> <br></br> <span style={{ fontWeight: "bolder" }}> AI Student Intern </span> <br></br>
-                Applied AI-driven data extraction in ChatSpot (HubSpot's AI chat) to generate 150+ leads, supporting the expansion of prospecting clients and partners. Compiled a Google Sheet capturing company details, location, employee size, and industry type, emphasizing key qualification factors for targeted outreach. Developed a B2B email series—including Outreach, Follow-Up, Trial/Demo, and Onboarding messages—each ranging from 200–300 words.
+                Applied AI-driven data extraction in ChatSpot (HubSpot's AI chat) to generate 150+ leads, supporting the expansion of prospecting clients and partners. Compiled a Google Sheet capturing company details, location, employee size, and industry type, emphasizing key qualification factors for targeted outreach. Developed a B2B email series including Outreach, Follow-Up, Trial/Demo, and Onboarding messages each ranging from 200–300 words.
     
                 </p>
             </div>
