@@ -39,7 +39,7 @@ export function Portfolio() {
           <a target="_blank" href="https://web-production-bbed.up.railway.app/voter_analytics/" > 
 
           <p id="image">
-          <img src="src/public/one.png"></img>
+          <img src="/one.png"></img>
               </p>
              
                 <p id="port-desc"> <span style={{
