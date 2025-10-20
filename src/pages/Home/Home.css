@@ -1,47 +1,72 @@
-
-  
+/* Main container */
 #home-container {
     display: flex;
-    height: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 100vh; /* use min-height so it scrolls if taller */
     margin: 7%;
     margin-left: 12%;
-    margin-right: 12%; 
-
-   
-}
-
-/* Name Component */
-#home-container > div:first-child {
+    margin-right: 12%;
+    flex-wrap: wrap;
+    overflow-y: auto; /* ensures scroll when needed */
+  }
   
-    width: 50%;       /* Left half of the screen */
-    padding: 2rem;    /* optional spacing */
+  /* Left and right halves */
+  #home-container > div:first-child,
+  #home-container > div:last-child {
+    width: 48%;
+    padding: 2rem;
     box-sizing: border-box;
-}
-
-/* AboutMe Component */
-#home-container > div:last-child {
-    
-    width: 50%;       /* Right half of the screen */
-    padding: 2rem;    /* spacing */
-    box-sizing: border-box;
-}
-
-.pointer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    width: 1rem;
-    aspect-ratio: 1;
-    background-color: rgba(255, 255, 255, 0.25);
-    border: 1px solid transparent;
-    border-radius: 50%;
-    pointer-events: none;
-    transform: translate3d(var(--mouseX, 0), var(--mouseY, 0), 0);
-    
-}
-
-#non-sticky{
-    overflow: scroll;
+  }
+  
+  /* Scrollable section */
+  #non-sticky {
+    overflow-y: auto; /* allow internal scroll */
     scroll-behavior: smooth;
-}
+    max-height: 100vh; /* keeps it from overflowing too far on laptops */
+  }
+  
+  /* Medium screen (tablet/laptop) */
+  @media (max-width: 1200px) {
+    #home-container {
+      margin: 5%;
+    }
+  }
+  
+  /* Small screens (stack vertically) */
+  @media (max-width: 900px) {
+    #home-container {
+      flex-direction: column;
+      margin: 5%;
+      min-height: 100vh;
+    }
+  
+    #home-container > div:first-child,
+    #home-container > div:last-child {
+      width: 100%;
+      padding: 1.2rem;
+    }
+  
+    #non-sticky {
+      max-height: none;
+      overflow-y: visible;
+    }
+  }
+  
+  /* Mobile phones */
+  @media (max-width: 600px) {
+    #home-container {
+      margin: 2%;
+    }
+  
+    #home-container > div:first-child,
+    #home-container > div:last-child {
+      padding: 0.8rem;
+    }
+  
+    h1, h2, h3, p {
+      font-size: clamp(0.9rem, 4vw, 1.1rem);
+      line-height: 1.4;
+    }
+  }
+  

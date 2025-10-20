@@ -92,7 +92,7 @@ export function FullPortfolio() {
      
                 <td id="grey"><a target="_blank" href="https://mp-4-kappa.vercel.app/">weather.vercel.app/</a></td>
             </tr>
-            
+         
            
         </table>
         </div>

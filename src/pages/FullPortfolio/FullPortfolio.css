@@ -1,145 +1,205 @@
-
 * {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: small;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: small;
 }
 
-  #port-title h3,
+/* Titles */
+#port-title h3,
 #port-title h1 {
-  margin: 0; /* remove default top & bottom margins */
+  margin: 0;
   padding: 0;
 }
-#port-title h1{
-    margin-bottom: 3%;
+
+#port-title h1 {
+  margin-bottom: 3%;
 }
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: pink;
+}
+
+/* Container */
+#port-container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Pointer effect */
+.pointer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 1rem;
+  aspect-ratio: 1;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid transparent;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate3d(var(--mouseX, 0), var(--mouseY, 0), 0);
+}
+
+/* “View” link styling */
+#view {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 400;
+  transform-origin: left center;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+#view .icon {
+  transition: inherit;
+  color: currentColor;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: sans-serif;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+th,
+td {
+  padding: 0.75rem 7rem;
+  border-bottom: 1px solid #cccccc3d;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+th,
+td {
+  border-left: none;
+  border-right: none;
+}
+
+#grey {
+  color: rgba(255, 255, 255, 0.69);
+}
+
+th {
+  font-weight: bolder;
+}
+
+td {
+  font-weight: lighter;
+}
+
+/* Back link hover */
+.back-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease, box-shadow 0.5s ease, border-color 0.3s ease;
+}
+
+.back-link:hover {
+  color: pink;
+  transform: scale(1.1);
+}
+
+/* Scrollable table container */
+.table-container {
+  max-height: 60vh;
+  overflow-y: auto;
+  width: 100%;
+  margin-top: 2rem;
+  border-top: none;
+}
+
+/* ============================= */
+/* 📱 Responsive Adjustments */
+/* ============================= */
+
+@media (max-width: 1000px) {
+  #port-container {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  th,
+  td {
+    padding: 0.75rem 3rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Medium screens (table adapts) */
+@media (max-width: 700px) {
+  th,
+  td {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  #port-title h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  #view {
+    font-size: 0.9rem;
+  }
+}
+
+/* Hide Description column on small screens */
+@media (max-width: 600px) {
+  /* Hide the second column */
+  th:nth-child(2),
+  td:nth-child(2) {
+    display: none;
+  }
+
+  /* Adjust padding for remaining columns */
+  th,
+  td {
+    padding: 0.75rem 1rem;
+  }
+
+  body {
+    font-size: 0.85rem;
+  }
+
+  #port-container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 
   .title {
-    display: flex;
-    align-items: center; 
-    gap: 0.5rem;
-    color: pink;
- 
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-#port-container {
-    margin-left: 5%;
-    margin-right: 5%;
-   
+  #view {
+    gap: 0.3rem;
+  }
 }
-h3 {
-    
- 
-    display: inline;
-    justify-content: align;
-}
-
-
-.pointer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    width: 1rem;
-    aspect-ratio: 1;
-    background-color: rgba(255, 255, 255, 0.25);
-    border: 1px solid transparent;
-    border-radius: 50%;
-    pointer-events: none;
-    transform: translate3d(var(--mouseX, 0), var(--mouseY, 0), 0);
-    
-}
-
-#view {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: 400;
-    transform-origin: left center;
-    transition: transform 0.3s ease, color 0.3s ease;
-    cursor: pointer;
-    color: black; /* default color */
-    text-decoration: none;
-  }
-  
- 
-  
-  /* make sure icon inherits currentColor */
-  #view .icon {
-    transition: inherit;
-    color: currentColor;
-  }
- 
-
-
-
-table,  td {
-    overflow-y: scroll;
-    border-collapse: collapse;
-}
-
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
-    text-align: left;
-    font-family: sans-serif;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-  }
-  
-  th, td {
-    padding: 0.75rem 7rem;
-    border-bottom: 1px solid #cccccc3d; /* horizontal line only */
-  }
-  
-  /* optional: remove bottom border from last row */
-  tr:last-child td {
-    border-bottom: none;
-  }
-  
-  /* remove vertical lines */
-  th, td {
-    border-left: none;
-    border-right: none;
-  }
-  
-  #grey {
-    color: rgba(255, 255, 255, 0.69);
-  }
-  
-  th {
-    font-weight: bolder;
-  }
-
-  td {
-    font-weight: lighter;
-  }
-
-  .back-link {
-    text-decoration: none; /* remove underline */
-    color: inherit;         /* use the h3’s color */
-    display: inline-flex;   /* keeps icon + text on same line */
-    align-items: center;    /* vertically centers icon + text */
-    gap: 0.5rem;            /* space between icon and name */
-    transition: transform 0.3s ease, box-shadow 0.5s ease, border-color 0.3s ease;
-  }
-  
-  .back-link:hover {
-color: pink;
-    transform: scale(1.1);
-  }
-  
-
-  .table-container {
-    max-height: 60vh;   /* table container max height */
-    overflow-y: auto;   /* vertical scroll */
-    width: 100%;        /* full width */
-    margin-top: 2rem;   /* optional spacing from header */
-    border-top: none;   /* optional */
-    
-  }
-  
-
-  
