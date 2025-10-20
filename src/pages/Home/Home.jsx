@@ -3,7 +3,7 @@ import "./Home.css"
 import { Aboutme } from "../../components/Aboutme/Aboutme"
 import { Name } from "../../components/Name/Name"
 import { Nav } from "../../components/Nav/Nav"
-import { Links } from "../../components/Links/links"
+import { Links } from "../../components/Links/Links"
 import { Experience } from "../../components/Experience/Experience"
 
 import { useEffect, useState } from "react"
