@@ -76,6 +76,12 @@ export function FullPortfolio() {
            
             </tr>
             <tr>
+                <td>Url Shortner</td>
+                <td>A tool that converts long URLs into short, shareable links with just one click</td>
+         
+                <td id="grey"><a target="_blank" href="https://drojas-studio.vercel.app/">url-shortener.vercel.app/</a></td>
+            </tr>
+            <tr>
                 <td>Flashcards</td>
                 <td>Flashcards app with front/back view for studying.</td>
                 <td id="grey"><a target="_blank" href="https://flashcards-ten-psi.vercel.app/">flashcards.vercel.app/</a></td>
@@ -86,17 +92,7 @@ export function FullPortfolio() {
      
                 <td id="grey"><a target="_blank" href="https://mp-4-kappa.vercel.app/">weather.vercel.app/</a></td>
             </tr>
-            <tr>
-                <td>VsCode Theme</td>
-                <td> A sleek VS Code theme blending pink, brown, and red hues for a polished, modern coding aesthetic.</td>
-                <td id="grey">Blah</td>
-            </tr>
-            <tr>
-                <td>Url Shortner</td>
-                <td>A tool that converts long URLs into short, shareable links with just one click</td>
-           
-                <td id="grey">Blah</td>
-            </tr>
+            
            
         </table>
         </div>
