@@ -23,7 +23,7 @@ export function Portfolio() {
 
 
           <p id="image">
-          <img src={one}></img>
+          <img src="src/public/two.png"></img>
               </p>
              
                 <p id="port-desc"> <span style={{
@@ -61,7 +61,7 @@ export function Portfolio() {
                 <p id="port-desc"> <span style={{
     fontWeight: "bolder",
   }}>Radiology Report<PiCursorClickDuotone /> </span> <br></br>
-                A web application for doctors to manage and assess patient X-ray exams related to COVID-19. Users can securely create, view, update, and delete radiology reports with JWT authentication for protected access. <span id="golden">Built with MERN Stack: MongoDB, Express, React, NodeJS, and JWT Authentication.</span>
+                An interactive dashboard for Newton, MA voter data. Users can browse, filter, and paginate through voter records, and analyze data via bar and pie charts to gain insights into demographics and election trends. <span id="golden">Built with Mern Stack: MongoDB, Express, React, NodeJS. </span>
                 </p>
           </a>   
             </div>
