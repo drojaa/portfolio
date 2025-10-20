@@ -23,7 +23,7 @@ export function Portfolio() {
 
 
           <p id="image">
-          <img src="/public/two.png"></img>
+          <img src="/two.png"></img>
               </p>
              
                 <p id="port-desc"> <span style={{
@@ -39,7 +39,7 @@ export function Portfolio() {
           <a target="_blank" href="https://web-production-bbed.up.railway.app/voter_analytics/" > 
 
           <p id="image">
-          <img src="/public/one.png"></img>
+          <img src="/one.png"></img>
               </p>
              
                 <p id="port-desc"> <span style={{
@@ -55,7 +55,7 @@ export function Portfolio() {
           <a target="_blank" href="https://github.com/hirwaishimwe/rad-report" > 
 
           <p id="image">
-          <img src="/public/three.png"></img>
+          <img src="/three.png"></img>
               </p>
              
                 <p id="port-desc"> <span style={{
