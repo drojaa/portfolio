@@ -6,7 +6,7 @@ export function Experience(){
         <>
         <div class="exp-container">
           
-          <a href="/Resume.pdf" target="_blank">  
+          <a href="/Resume_New.pdf" target="_blank">  
         <div id="downloads">
             <p id="download">Download My Full Resume Here <PiCursorClickDuotone/></p>
           
