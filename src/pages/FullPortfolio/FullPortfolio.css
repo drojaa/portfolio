@@ -203,3 +203,7 @@ td {
     gap: 0.3rem;
   }
 }
+
+#toWhite {
+  color: white;
+}
