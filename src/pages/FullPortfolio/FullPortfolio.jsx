@@ -26,13 +26,13 @@ export function FullPortfolio() {
       Derinell Rojas
     </Link>
   </h3>
-  <h1>Additional Projects</h1>
+  <h1 style="color:white;" >Additional Projects</h1>
 </div>
 
     <div class="table-container"> 
         
         <table>
-            <tr>
+            <tr style="color:white;">
                 <th>Project</th>
                 <th>Description</th>
                 <th>Link</th>
