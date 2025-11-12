@@ -4,7 +4,7 @@ import "./Name.css"
 
 
 export function Name() {
-    const words = ["Entry-level Software Engineer", "Recent Computer Science Graduate"];
+    const words = ["Early-Career Software Engineer", "Digital Experimenter"];
     const [current, setCurrent] = useState(0);
 
     useEffect(() => {
