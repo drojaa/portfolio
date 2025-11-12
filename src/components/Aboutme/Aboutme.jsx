@@ -11,7 +11,7 @@ As I complete my Bachelor of Arts in Computer Science at Boston University, I’
 These experiences have deepened my belief that software has the power to connect people and create lasting impact.
   <br></br><br></br>
   I’m committed to continuously developing my technical skills and knowledge as I grow into roles that challenge and inspire me.
-  <br></br><br></br>When I’m not immersed in tech, I love reading mystery books, solving Sudoku puzzles, baking for loved ones, watching sports, and hiking.
+  <br></br><br></br>When I’m not immersed in tech, I love reading mystery books, solving Sudoku puzzles, baking for loved ones, watching sports, and walking trails.
 </p>
 
 <p class="about">
