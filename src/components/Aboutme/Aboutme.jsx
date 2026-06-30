@@ -1,25 +1,26 @@
-
 // Aboutme.jsx
-import "./Aboutme.css"
+import "./Aboutme.css";
+
 export function Aboutme() {
     return (
         <>
         <div id="about-container">
-        <p class="about">
-Hey there! I see technology as the meeting point between creativity and logic, a space where ideas become tools and those tools become solutions that drive progress.
-As I complete my Bachelor of Arts in Computer Science at Boston University, I’ve begun to explore how technology bridges different industries through hands-on work in public safety, healthtech, and marketing. I’ve also volunteered at tech conferences, hackathons, and national tech organizations to engage with the tech community, stay inspired by emerging trends, and contribute to inclusive spaces for innovation.
-These experiences have deepened my belief that software has the power to connect people and create lasting impact.
-  <br></br><br></br>
-  I’m committed to continuously developing my technical skills and knowledge as I grow into roles that challenge and inspire me.
-  <br></br><br></br>When I’m not immersed in tech, I love reading mystery books, solving Sudoku puzzles, baking for loved ones, watching sports, and walking trails.
-</p>
+            <p className="about">
+                <strong>I’m a Computer Science graduate focused on business operations and CRM systems.</strong>
+                <br /><br />
+                I believe excellent technology should improve the way work gets done and make team operations more efficient, supported, and impactful. While my background provides a strong foundation in technical logic and data analysis, I am driven by the human side of the process—identifying workflows that slow people down and building the systems that resolve them.
+                <br /><br />
+                Bringing a balance of structure, analytical problem-solving, and dedication to cross-functional teams is why Salesforce and CRM operations are such a strong alignment for me. I enjoy creating intuitive workflows, maintaining data integrity, and building smarter processes that directly support business goals.
+                <br /><br />
+                I am currently completing a Salesforce Administration program through Per Scholas and actively pursuing roles in Salesforce Administration and Go-To-Market Operations.
+                <br /><br />
+                <strong>Outside of work:</strong> I enjoy reading mystery books, solving Sudoku puzzles, baking, and spending time on local walking trails.
+            </p>
 
-<p class="about">
-  Feel free to explore my webpage, and thank you for taking the time to visit!
-</p>
-
+            <p className="about">
+                Feel free to explore my webpage, or reach out directly via <a href="mailto:derinellrojas@gmail.com">derinellrojas@gmail.com</a>. Thank you for taking the time to visit!
+            </p>
         </div>
-        
         </>
-    )
+    );
 }
